@@ -1,0 +1,33 @@
+body{
+	margin: none;
+	background-color: #fff;
+	font-family: Verdana;
+}
+
+.links{
+	margin: auto;
+	width: 350px;
+}
+
+h2{
+	margin-bottom: 5px;
+	margin-top: 15px;
+	font-size: 1.5em;
+	color: #89d9d0;
+
+}
+
+ul{
+	margin: 0;
+}
+
+ul li{
+	list-style-type: none;
+	margin-bottom: 5px;
+}
+
+a{
+	text-decoration: none;
+	color: #999;
+	
+}
