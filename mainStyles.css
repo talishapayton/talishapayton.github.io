@@ -56,7 +56,7 @@ header p{
 	margin-top: 20px;
 }
 
-ul{
+header ul{
 	list-style-type: none;
 	text-align: right;
 }
@@ -70,6 +70,7 @@ nav ul{
 	text-align: center;
 	font-size: 60px;
 	line-height: 100px;
+	list-style-type: none;
 }
 
 
@@ -81,69 +82,6 @@ footer{
 	
 	/*background-color: green;*/
 }
-
-/*
-.listItem {
-  
-  list-style-type: none;
-  margin-bottom: 0px;
-  padding-top: 50px; 
-  display: inline; 
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 50px;
-  height"100px;
-}
- 
-.iconList {
-  width: 900px; 
-  display: inline-block;
-  float: right;
-  margin-top: 95px;
-  height: 100px;
-}
- 
-.firstItem {
-  background: url('images/gmail.png') top center no-repeat;
-  background-size: 45px 45px;
-}
-.secondItem {
-  background: url('images/linkedin.png') top center no-repeat;
-  background-size: 45px 45px;
-}
-.thirdItem {
-  background: url('images/github.png') top center no-repeat;
-  background-size: 45px 45px;
-}
-.fourthItem {
-  background: url('images/twitter.png') top center no-repeat;
-  background-size: 45px 45px;
-}
- 
-.list-span{
-  display: inline-block;
-  font-size: 16px;
-}*/
-
-
-/*.socialicons{
-	margin-top: 50px;
-	float: right;
-	color: #383d3b;
-
-}
-
-.socialicons a{
-	margin:0;
-	padding: 0;
-	margin-left: 20px;
-	color: #383d3b;
-}
-
-.socialicons p{
-	margin-top: 10px;
-	float: left;
-}*/
 
 .socialicons{
 	float: right;
@@ -181,8 +119,9 @@ h1{
 	overflow: hidden;
 }
 
-article img{
+.ux article img{
 	padding: 10px;
+	padding-top: 5px;
 	float: left;
 }
 
@@ -199,18 +138,52 @@ article img{
 }
 
 .longArticle{
-	width: 700px;
+	width: 80%;
 	margin: 0 auto;
 	line-height: 30px;
+	background-color: white;
+	color: #383d3b;
+	border-radius: 40px / 30px ;
+	padding: 20px;
 }
 
-.longArticle img{
-	padding-left: 0;
-}
 
 .longArticle h2{
+	margin-top: 20px;
+}
+.longArticle h2, p{
+	margin-bottom: 10px;
+}
+
+.longArticle figure{
+	text-align: center;
+}
+
+.longArticle p a{
+	color: #383d3b;
+	text-decoration: underline;
+}
+
+.longArticle ul, ol{
+	padding-left: 40px;
+	/*width: 80%;*/
+}
+
+.longArticle ol li ul{
+	padding-left: 20px;
+}
+
+h4{
+	margin-left: 20px;
 	margin-top: 10px;
 }
+
+figure img{
+	max-width: 100%;
+}
+
+
+
 
 
 
