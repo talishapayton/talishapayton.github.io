@@ -29,6 +29,7 @@ a{
 .wrapper{
 	margin: 0 auto;
 	width: 80%;
+	max-width: 1320px;
 	padding-bottom: 135px;
 
 }
