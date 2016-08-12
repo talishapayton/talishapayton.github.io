@@ -128,7 +128,8 @@ figcaption{
 footer{
 	background-image: url("images/footer2.png");
 	color: #383d3b;
-	position: absolute; 
+	position: absolute;
+	/*position: fixed;*/ 
 	bottom: 0; 
 	width: 100%;
 	margin-top: 10px;
@@ -302,7 +303,6 @@ table, td{
 	}
 
 	header img{
-		
 		height: 100px;
 		float: none;
 		margin: 0 auto;
@@ -352,7 +352,6 @@ table, td{
 	}
 
 	header ul, header:active ul { 
-
 		display: none;
 		position: absolute;
 		padding: 20px;
@@ -362,24 +361,24 @@ table, td{
 		top: 100px;
 		width: 50%;
 		border-radius: 4px 0 4px 4px;
-
 	}
 
 	header li {
-
 		text-align: center;
 		width: 100%;
 		padding: 10px 0;
 		margin: 0;
-
 	}
 
-	header:hover ul {
-
+	/*header:hover ul {
 		display: block;
+	}*/
 
+	#menu:hover ul {
+		display: block;
 	}
 
+	
 	#about a{
 		color: #383d3b;
 	}
