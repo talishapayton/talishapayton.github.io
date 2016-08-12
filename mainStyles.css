@@ -373,11 +373,11 @@ table, td{
 	/*header:hover ul {
 		display: block;
 	}*/
-
+	
+/* Add Div id=menu to every page */
 	#menu:hover ul {
 		display: block;
 	}
-
 	
 	#about a{
 		color: #383d3b;
