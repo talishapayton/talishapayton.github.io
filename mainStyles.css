@@ -277,7 +277,7 @@ table, td{
 .ux{
 	background-color: #fff;
 	max-width: 900px;
-	min-width: 400px;
+	min-width: 200px;
 	color: #383d3b;
 	height: 200px;
 	margin-top: 20px;
@@ -295,8 +295,8 @@ table, td{
 #menu-icon {
 
 		display: hidden;
-		width: 100px;
-		height: 100px;
+		width: 50px;
+		height: 50px;
 		background: url(images/contact-icons/menu-icon.png) center;
 }
 
@@ -305,19 +305,97 @@ table, td{
 	font-size: 18px;
 }
 
-/* -------------------------------------Media Queries------------------------------------*/
+/* -------------------------------------Media Queries see what works for global and what works for only UXDesign page------------------------------------*/
+@media only screen  and (max-width: 976px) {
+
+	body{
+		/*background-color: red;*/
+		font-size: 17px;
+
+	}
+
+	h2{
+		font-size: 1.2em;
+	}
+
+	.steps{
+		font-size: 15px;
+	}
+}
+
+@media only screen  and (max-width: 800px) {
+
+	body{
+		/*background-color: orange;*/
+		font-size: 17px;
+	}
+
+	.steps{
+		font-size: 17px;
+	}
+
+	.ux{
+		height: 375px;
+	}
+
+	.ux img{
+		float: none;
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+
+}
+
+
+
+
 /*@media (max-width: 768px)*/
-@media only screen  and (max-width: 667px) { /*width up to 768px*/
+@media only screen  and (max-width: 580px) { /*width up to 500px*/
+
+	.wrapper{
+		padding-bottom: 30px;
+	}
 
 	header{
 		height: 50px;
 	}
 
 	header img{
-		height: 100px;
+		height: 50px;
 		float: none;
 		margin: 0 auto;
 	}
+	header p{
+		clear: both;
+		float: none;
+		width: 80% ;
+		font-size: 18px;
+		text-align: center;
+		margin: 0 auto;
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+
+	h1{
+		font-size: 30px;
+		line-height: 30px;
+		margin-top: 50px;
+	}
+
+	.ux{
+		height: 390px;
+	}
+
+	.ux h2{
+		font-size: 15px;
+	}
+
+	article .ux{
+		font-size: 30px;
+	}
+
+	/*-------Menu css global------------ */
 
 	#about{
 		/* display: none;*/
@@ -327,16 +405,7 @@ table, td{
 		display: inline-block;
 	}
 
-	header p{
-		clear: both;
-		float: none;
-		width: 60% ;
-		font-size: 23px;
-		/*background-color: yellow;*/
-		margin: 0 auto;
-		margin-top: 10px;
-		margin-bottom: 10px;
-	}
+
 
 	.logo-wrapper{
 		/*background-color: red;*/
